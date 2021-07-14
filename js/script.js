@@ -24,7 +24,7 @@ const createGalleryRef = item => {
 
     galleryLinkref.appendChild(galleryImgRef);
     galleryItemRef.appendChild(galleryLinkref);
-    galleryRef.appendChild(galleryItemRef);
+    //galleryRef.appendChild(galleryItemRef);
 
     return galleryItemRef;
 };
